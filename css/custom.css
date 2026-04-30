@@ -36,3 +36,9 @@
   filter: invert(100%); /* Standard syntax */
   -webkit-filter: invert(100%); /* For Safari/Chrome compatibility */
 }
+
+/* Sticky header (white bar): header CTA readable on white navbar */
+header.scrollHeader .attr-nav a.btn-style01,
+header.scrollHeader .attr-nav a.btn-style01 .btn-text {
+  color: #191919 !important;
+}

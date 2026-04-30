@@ -55,15 +55,16 @@
             var logodefault = $(".navbar-brand.logodefault img");
             if (scroll <= 175) {
                 $("header").removeClass("scrollHeader").addClass("fixedHeader");
-                logochange.attr('src', 'img/logo.webp');
-                logodefault.attr('src', 'img/logo.webp');
+                logochange.attr('src', 'img/logo_white.png');
+                logodefault.attr('src', 'img/logo_white.png');
             } 
             else {
                 $("header").removeClass("fixedHeader").addClass("scrollHeader");
-                logochange.attr('src', 'img/logo.webp');
-                logodefault.attr('src', 'img/logo.webp');
+                logochange.attr('src', 'img/logo_black.png');
+                logodefault.attr('src', 'img/logo_black.png');
             }
         });
+        $window.trigger('scroll');
 
         /*------------------------------------
             03. Scroll To Top
