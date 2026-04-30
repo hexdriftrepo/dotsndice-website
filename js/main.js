@@ -50,6 +50,9 @@
         --------------------------------------*/
 
         $window.on('scroll', function() {
+            if ($("header.header-static-light").length) {
+                return;
+            }
             var scroll = $window.scrollTop();
             var logochange = $(".navbar-brand img");
             var logodefault = $(".navbar-brand.logodefault img");

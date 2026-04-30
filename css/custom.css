@@ -42,3 +42,27 @@ header.scrollHeader .attr-nav a.btn-style01,
 header.scrollHeader .attr-nav a.btn-style01 .btn-text {
   color: #191919 !important;
 }
+
+/* Inner pages only: extra space below navbar before main content (index unchanged) */
+.main-wrapper > header.header-static-light + section {
+  padding-top: calc(120px + 2.75rem);
+}
+
+/* Inner pages: black nav + CTA (override template green current on scroll bar) */
+header.header-style1.header-static-light.scrollHeader .navbar-nav > li > a,
+header.header-style1.header-static-light.scrollHeader .navbar-nav li.current > a,
+header.header-style1.header-static-light.scrollHeader .navbar-nav li.current > a:hover,
+header.header-style1.header-static-light.scrollHeader .navbar-nav li.active > a {
+  color: #191919 !important;
+}
+header.header-style1.header-static-light.scrollHeader .navbar > ul > li.has-sub > a:after,
+header.header-style1.header-static-light.scrollHeader .navbar > ul > li.current > a:after {
+  border-color: transparent #191919 #191919 transparent !important;
+}
+header.header-style1.header-static-light.scrollHeader .attr-nav > ul > li > a {
+  color: #191919 !important;
+}
+header.header-style1.header-static-light.scrollHeader .attr-nav a.btn-style01,
+header.header-style1.header-static-light.scrollHeader .attr-nav a.btn-style01 .btn-text {
+  color: #191919 !important;
+}
