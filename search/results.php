@@ -68,8 +68,10 @@ foreach($files as $file){
     <!-- title  -->
     <title>Leading Software, Website & App Development Company | SLBB</title>
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="../img/logos/favicon.png">
+    <!-- favicon: light browser chrome → Favicon_b; dark → Favicon_w -->
+    <link rel="icon" type="image/png" href="../img/Favicon_b.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="../img/Favicon_w.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" href="../img/Favicon_b.png">
     <link rel="apple-touch-icon" href="../img/logos/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../img/logos/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="../img/logos/apple-touch-icon-114x114.png">
