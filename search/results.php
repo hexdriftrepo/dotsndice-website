@@ -63,10 +63,10 @@ foreach($files as $file){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="keywords" content="IT Solutions & Digital Agency HTML Template">
-    <meta name="description" content="Leading Software, Website & App Development Company | SLBB">
+    <meta name="description" content="Leading Software, Website & App Development Company | DotsnDice">
 
     <!-- title  -->
-    <title>Leading Software, Website & App Development Company | SLBB</title>
+    <title>Leading Software, Website & App Development Company | DotsnDice</title>
 
     <!-- favicon: light browser chrome → Favicon_b; dark → Favicon_w -->
     <link rel="icon" type="image/png" href="../img/Favicon_b.png" media="(prefers-color-scheme: light)">
